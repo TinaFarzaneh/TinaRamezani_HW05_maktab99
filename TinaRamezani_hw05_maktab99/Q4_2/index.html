@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>HW05_Q4</title>
+</head>
+
+<body>
+  <section class="row">
+    <div class="well">
+      <label class="message-lable" for="message">Message</label>
+      <textarea class="input-massage" id="message" rows="3" placeholder="Enter a message...">Message</textarea>
+    </div>
+
+    <div class="well">
+      <label class="message-lable" for="top-buttom">top or bottom</label>
+      <input type="number" class="input-massage" id="top-buttom" value="10">
+    </div>
+
+    <div class="well">
+      <label class="message-lable" for="left-right">left or right</label>
+      <input type="number" class="input-massage" id="left-right" value="10">
+    </div>
+
+
+    <div class="input">
+      <label>Position?</label>
+      <select id="position1" class="form-control">
+        <option value="top" selected>top</option>
+        <option value="bottom">bottom</option>
+      </select>
+      <select id="position2" class="form-control">
+        <option value="left" selected>left</option>
+        <option value="right">right</option>
+      </select>
+    </div>
+    <button type="button" class="btn" id="showtoast">Show Toast</button>
+  </section>
+
+  <div class="notif"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
