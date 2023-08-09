@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>HW05_Q4</title>
+</head>
+
+
+<body>
+  <div class="notif"></div>
+  <form id="form">
+    <section class="row">
+      <div class="well">
+        <label class="message-lable" for="message">Message</label>
+        <textarea class="input-massage" id="message" rows="3" placeholder="Enter a message..."
+          name="textarea"></textarea>
+      </div>
+      <div class="input">
+        <label>Position?</label>
+        <label class="radio">
+          <input type="radio" name="position" value="top-right">Top Right
+        </label>
+        <label class="radio">
+          <input type="radio" name="position" value="bottom-right">Bottom Right
+        </label>
+        <label class="radio">
+          <input type="radio" name="position" value="bottom-left">Bottom Left
+        </label>
+        <label class="radio">
+          <input type="radio" name="position" value="top-left">Top Left
+        </label>
+      </div>
+
+      <button type="button" class="btn" id="showtoast">Show Toast</button>
+    </section>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
