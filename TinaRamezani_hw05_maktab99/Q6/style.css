@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(#ffffffc5, #ffffff91), url(./image/2.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: bisque;
+  font-family: sans-serif;
+}
+img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+h2 {
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(74, 0, 224);
+  background: linear-gradient(
+    164deg,
+    rgba(74, 0, 224, 1) 0%,
+    rgba(157, 95, 210, 1) 93%
+  );
+  border-radius: 12px;
+  width: 350px;
+  height: 450px;
+  padding: 25px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.231);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.login_form input {
+  border: none;
+  border-bottom: 1px solid bisque;
+  outline: none;
+  padding: 13px;
+  background-color: inherit;
+}
+.login_form input[placeholder] {
+  padding-left: 30px;
+}
+.login_form input::placeholder {
+  color: bisque;
+}
+.input {
+  width: 100%;
+}
+.username,
+.password {
+  position: relative;
+}
+.username ion-icon,
+.password ion-icon {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  gap: 15px;
+  padding-left: 5px;
+}
+
+.loginBtn {
+  border: none;
+  width: 60px;
+  padding: 7px;
+  border-radius: 20px;
+  align-self: center;
+  cursor: pointer;
+}
+.forgot_pass {
+  text-decoration: none;
+  color: bisque;
+  text-align: center;
+  margin-top: 20px;
+}
